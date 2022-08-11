@@ -1,0 +1,132 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: 'Roboto', sans-serif;
+}
+
+.container {
+  width: 80%;
+  margin: 0 auto;
+}
+
+.title {
+  font-size: 40px;
+  text-align: center;
+  margin: 20px 0;
+}
+
+.franceT {
+    font-weight: 100;
+}
+
+.blocks {
+  border: 1px solid #000;
+  width: 100%;
+  height: 400px;
+  display: flex;
+  position: relative;
+}
+
+.block {
+  width: calc(33% + 0.33%);
+  height: 400px;
+}
+
+.france1 {
+    background-color: rgb(23, 94, 248);
+}
+
+.france3 {
+    background-color: rgb(239, 56, 56);
+}
+
+.belgiumT {
+    font-weight: 400;
+}
+
+.belgium1 {
+    background-color: #000;
+}
+
+.belgium2 {
+    background-color: rgb(220, 184, 55);
+}
+
+.ireland1 {
+    background-color: rgb(3, 149, 69);
+}
+
+.ireland3 {
+    background-color: rgb(239, 160, 48);
+}
+
+.denmark1 {
+    position: absolute;
+    background-color: #fff;
+    width: 40px;
+    left: 25%;
+}
+.denmark2 {
+    position: absolute;
+    background-color: #fff;
+    width: 100%;
+    height: 40px;
+    top: 45%;
+    left: 0;
+}
+
+.norway {
+    display: block;
+}
+
+.norway1 {
+    width: 30%;
+    height: 150px;
+}
+
+.norway11 {
+    width: 100%;
+    height: 150px;
+}
+
+.norwaybottom {
+    margin-top: 100px;
+}
+
+.norway2 {
+    width: 55%;
+    height: 150px;
+}
+
+.norway22 {
+    margin-left: 123px;
+    width: 100%;
+    height: 150px;
+}
+
+.colblueline {
+    position: absolute;
+    width: 50px;
+    height: 400px;
+    background-color: rgb(0, 18, 137);
+    left: 34.5%;
+}
+
+.horblueline {
+    position: absolute;
+    width: 100%;
+    height: 50px;
+    background-color: rgb(0, 18, 137);
+    top: 44%;
+}
+
+.sweden {
+    background-color: rgb(220, 200, 50);
+}
+
+.pkch {
+    position: absolute;
+    width: 20%;
+    top: 30%;
+    right: 40%;
+}
