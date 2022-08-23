@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        ////////
+        //hw2
+        //let a;
+        //let max=0;
+        //for(let i=0;i<3;i++){
+        //    a=Number(prompt("number"))
+        //    if(a>max){
+        //        max=a;
+        //    }
+        //}
+        //alert(max);
+
+        ////////////
+        //hw3
+        //ugadaika
+    
+        let a=Math.round(Math.random()*1001);
+        let b;
+        alert("In this game you have to guess an integer from 0 to 1000, you have 30 tries (Use binary search!)");
+        for(let i=0;i<30;i++){
+            b=Number(prompt("attempt "+(i+1)));
+            if(b==a){
+               alert("Congratulations you won in "+(i+1)+" attempt");
+               break;
+            }else if(b>a){
+                alert("the hidden number is less");
+            }else{
+                alert("the hidden number is greater");
+            }
+        }
+        alert("hidden number:"+a)
+    </script>
+</body>
+</html>
